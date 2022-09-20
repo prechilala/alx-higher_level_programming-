@@ -14,9 +14,9 @@ int check_cycle(listint_t *list)
 	{
 		s1 = s1->next;
 		s2 = s2->next->next;
-	if (!s2 || !s1)
-		return (0);
-	if (s2->next == s1
+		if (!s2 || !s1)
+			return (0);
+		if (s2->next == s1
 			return (1);
 	}
 	return (0);
