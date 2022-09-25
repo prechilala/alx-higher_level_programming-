@@ -18,4 +18,3 @@ def add_tuple(tuple_a=(), tuple_b=()):
         else:
            new_tup = (new_tup, a + b)
     return (new_tup)
-
